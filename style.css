@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     font-family: sans-serif;
     margin-left: 200px;
+    margin-right: 200px;
 }
 
 .header{
@@ -45,4 +46,12 @@ h1{
 .section-top{
     display: flex;
     flex-direction: column;
+}
+
+.header, .section-top{
+    background-color: #1F2937;
+}
+
+img{
+    width: 800px;
 }
