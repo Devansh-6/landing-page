@@ -1,10 +1,11 @@
 body{
-    /* background-color: #1F2937; */
+    background-color: #1F2937;
     display: flex;
     flex-direction: column;
     font-family: Roboto, system-ui;
-    padding-left: 200px;
-    padding-right: 200px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    margin: 0px;
 }
 
 ul{
@@ -62,6 +63,10 @@ h1{
 
 .header, .section-one{
     background-color: #1F2937;
+    border-left: #1F2937 solid 200px;
+    border-right: #1F2937 solid 200px;
+    /* background-clip: border-box;
+    box-shadow: 0 0 0 15px blue; */
 }
 
 img{
@@ -75,6 +80,8 @@ img{
 
 .section-two{
     background-color: #F9FAF8;
+    border-left: #F9FAF8 solid 200px;
+    border-right: #F9FAF8 solid 200px;
 }
 
 .info{
