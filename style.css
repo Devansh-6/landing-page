@@ -77,6 +77,12 @@ img{
     background-color: #F9FAF8;
 }
 
+.info{
+    font-weight: 800;
+    font-size: 36px;
+    font-color: #1F2937;
+}
+
 .info-list{
     padding: 0px;
     display: flex;
@@ -84,8 +90,8 @@ img{
 }
 
 .info-card{
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
     border: 5px solid blue;
-    border-radius: 5px;
+    border-radius: 12px;
 }
