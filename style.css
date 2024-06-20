@@ -147,14 +147,13 @@ img{
 
 .section-four{
     background-color: #3882f6;
-    border-left: #F9FAF8 solid 200px;
-    border-right: #F9FAF8 solid 200px;
-    border-top: #F9FAF8 solid 100px;
-    border-bottom: #F9FAF8 solid 100px;
+    border: 10px solid #3882F6;
     text-align: center;
     color: #F9FAF8;
     display: flex;
     padding: 10px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
 .action{
@@ -185,4 +184,10 @@ footer{
     font-size: 15px;
 }
 
-
+.section-four-wrapper{
+    border-left: #F9FAF8 solid 200px;
+    border-right: #F9FAF8 solid 200px;
+    border-top: #F9FAF8 solid 100px;
+    border-bottom: #F9FAF8 solid 100px;
+    background-color: #F9FAF8;
+}
